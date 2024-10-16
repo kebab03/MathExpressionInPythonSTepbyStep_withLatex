@@ -1,0 +1,42 @@
+2/3+9/7
+2/3-9/7
+23/45-35/27
+42/3-9/7
+16/15-5/7 forse perche ho due cifre
+\frac{    \left\{  [   (\frac{9}{2} + 2) ]   \right\}\times  4^{3}}{2^{2}}
+'16/15-5/7' ha problemi  sembra
+106-17
+2/5+2/3-5/7
+iqbal hossain jony 
+2/3-5/7*7^2
+2/5+(2/3-5/7)
+2/5+(2/3+9/7)
+
+(9/2 + 4/7)
+(7 + 4 - 10) · 4 + [8 + 6 – (15-2)] x 6
+(9/2 -2)*4^3
+[8/2+6-17]
+8/2 + 6/5-17  da 27 
+[7/2+106-54]
+[8/2+6-17]  è da sitemare 
+[(9/2+ 4/7)-10]*4^3 è da sitem
+ (9/2 +2)*4^3
+[(9/2+2)]*4^3
+
+{[(9/2+2)]*4^3}/2^2
+
+2/5+(8/3-5/7)*4^3
+
+(2/3-9/7)+(8/6+9/7)
+(2/3-9/7)+[8/2+6-17]
+
+['Espressione iniziale: $(\\frac{9}{2} +2) \\times 4^{3}$', 'Risolviamo la parentesi (): $\\frac{9}{2} +2$', 'MCM dei denominatori: 2', 'Moltiplichiamo ogni numeratore per il MCM e manteniamo invariato il denominatore:', 'Espressione con denominatore comune: $\\frac{\\frac{9}{2} \\times 2+\\frac{2}{1} \\times 2}{2}$', 'Espressione con denominatore comune semplificato: $\\frac{9 \\times 1+2 \\times 2}{2}$', 'Risultato finale: $\\frac{13}{2}$']
+try7
+ line 341   frisolvi_espressione latex_expr: \frac{\frac{9}{2}*2+\frac{-2}{1}*2}{2}
+bene_bst
+ line 194   frisolvi_espressione latex_expr: \frac{\frac{2}{3}*21-\frac{5}{7}*21}{21}
+
+self.passi = [f"Espre my cod iniziale: ${ 46+\frac{\left\{(\frac{9}{2}+2)+5\right\}}{4^2} }$"]
+46+\frac{\left\{(\frac{9}{2}+2)+5\right\}}{4^2}
+'\\left\\{[(9/2 +2)] \\times 4^{3}\\right\\}/2^{2}'
+'\\left\\{[(\\frac{9}{2} +2)] \\times 4^{3}\\right\\}/2^{2}'
