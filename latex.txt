@@ -1,0 +1,47 @@
+sharifleeongmail.com
+sudo apt update
+sudo apt install texlive-base
+
+sudo apt install texlive-fonts-recommended
+tlmgr install type1cm
+  - vs 
+-- sudo snap install code --classic
+
+---  sublime text  
+-usa   
+sudo apt-get update
+@   non funziona    sudo apt-get install sublime-text
+mentre   snap install sublime-text --classic      funziona
+
+-----------
+https://linuxconfig.org/how-to-install-latex-on-ubuntu-22-04-jammy-jellyfish-linux
+
+----#### per kivy buildozer
+sudo apt update && sudo apt install -y git zip unzip openjdk-11-jdk python3-pip autoconf libtool pkg-config zlib1g-dev libncurses5-dev libncursesw5-dev cmake libffi-dev
+
+### per latex usa 
+
+sudo apt-get remove texlive*
+sudo apt-get autoremove
+
+Download the latest TeX Live installer: You can download it from the official TeX Live page:
+
+bash
+
+wget http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz
+
+Extract the downloaded installer:
+
+bash
+
+tar -xzf install-tl-unx.tar.gz
+cd install-tl-<date>  # Navigate to the extracted folder
+
+Run the installer:
+
+bash
+
+sudo ./install-tl
+
+
+@    export PATH=/usr/local/texlive/2024/bin/x86_64-linux:$PATH

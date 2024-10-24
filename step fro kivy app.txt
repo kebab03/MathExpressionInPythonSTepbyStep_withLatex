@@ -1,0 +1,235 @@
+@00.07 start install uuntu
+00.26 min end install
+0.39 start kivy buildpozer
+
+esguito 
+sudo apt update
+
+sudo apt install python3 python3-pip
+
+
+pip3 install --user --upgrade Cython==0.29.33
+sudo apt-get update
+sudo apt-get install cmake
+pip3 install buildozer
+
+
+sudo apt install -y python3-setuptools python3-dev git python3-pip python3-venv openjdk-11-jdk zip unzip
+
+00.49 star buildin
+
+1.00  errore 
+1.03 rstat
+
+sudo apt-get update
+sudo apt-get install autoconf automake libtool
+1.10 rstrt
+
+1.28 errore 
+
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+
+    self.run()
+
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+
+    self._target(*self._args, **self._kwargs)
+
+  File "/home/leon/.local/lib/python3.10/site-packages/sh.py", line 1641, in wrap
+
+    fn(*rgs, **kwargs)
+
+  File "/home/leon/.local/lib/python3.10/site-packages/sh.py", line 2569, in background_thread
+
+    handle_exit_code(exit_code)
+
+  File "/home/leon/.local/lib/python3.10/site-packages/sh.py", line 2269, in fn
+
+    return self.command.handle_command_exit_code(exit_code)
+
+  File "/home/leon/.local/lib/python3.10/site-packages/sh.py", line 869, in handle_command_exit_code
+
+    raise exc
+
+sh.ErrorReturnCode_1: 
+
+
+
+  RAN: /home/leon/MyKivyApp/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build/python3 setup.py install -O2 --root=/home/leon/MyKivyApp/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/myapp/arm64-v8a --install-lib=.
+
+
+
+  STDOUT:
+
+Traceback (most recent call last):
+
+  File "/home/leon/MyKivyApp/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/setuptools/arm64-v8a__ndk_target_21/setuptools/setup.py", line 7, in <module>
+
+    import setuptools
+
+  File "/home/leon/MyKivyApp/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/setuptools/arm64-v8a__ndk_target_21/setuptools/setuptools/__init__.py", line 18, in <module>
+
+    from setuptools.dist import Distribution
+
+  File "/home/leon/MyKivyApp/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/setuptools/arm64-v8a__ndk_target_21/setuptools/setuptools/dist.py", line 32, in <module>
+
+    from setuptools import windows_support
+
+  File "/home/leon/MyKivyApp/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/setuptools/arm64-v8a__ndk_target_21/setuptools/setuptools/windows_support.py", line 2, in <module>
+
+    import ctypes
+
+  File "/home/leon/MyKivyApp/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Lib/ctypes/__init__.py", line 8, in <module>
+
+    from _ctypes import Union, Structure, Array
+
+ModuleNotFoundError: No module named '_ctypes'
+
+
+
+
+
+  STDERR:
+
+
+
+Traceback (most recent call last):
+
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+
+    return _run_code(code, main_globals, None,
+
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+
+    exec(code, run_globals)
+
+  File "/home/leon/MyKivyApp/.buildozer/android/platform/python-for-android/pythonforandroid/toolchain.py", line 1256, in <module>
+
+    main()
+
+  File "/home/leon/MyKivyApp/.buildozer/android/platform/python-for-android/pythonforandroid/entrypoints.py", line 18, in main
+
+    ToolchainCL()
+
+  File "/home/leon/MyKivyApp/.buildozer/android/platform/python-for-android/pythonforandroid/toolchain.py", line 685, in __init__
+
+    getattr(self, command)(args)
+
+  File "/home/leon/MyKivyApp/.buildozer/android/platform/python-for-android/pythonforandroid/toolchain.py", line 104, in wrapper_func
+
+    build_dist_from_args(ctx, dist, args)
+
+  File "/home/leon/MyKivyApp/.buildozer/android/platform/python-for-android/pythonforandroid/toolchain.py", line 163, in build_dist_from_args
+
+    build_recipes(build_order, python_modules, ctx,
+
+  File "/home/leon/MyKivyApp/.buildozer/android/platform/python-for-android/pythonforandroid/build.py", line 504, in build_recipes
+
+    recipe.build_arch(arch)
+
+  File "/home/leon/MyKivyApp/.buildozer/android/platform/python-for-android/pythonforandroid/recipe.py", line 934, in build_arch
+
+    self.install_python_package(arch)
+
+  File "/home/leon/MyKivyApp/.buildozer/android/platform/python-for-android/pythonforandroid/recipe.py", line 950, in install_python_package
+
+    shprint(hostpython, 'setup.py', 'install', '-O2',
+
+  File "/home/leon/MyKivyApp/.buildozer/android/platform/python-for-android/pythonforandroid/logger.py", line 167, in shprint
+
+    for line in output:
+
+  File "/home/leon/.local/lib/python3.10/site-packages/sh.py", line 915, in next
+
+    self.wait()
+
+  File "/home/leon/.local/lib/python3.10/site-packages/sh.py", line 845, in wait
+
+    self.handle_command_exit_code(exit_code)
+
+  File "/home/leon/.local/lib/python3.10/site-packages/sh.py", line 869, in handle_command_exit_code
+
+    raise exc
+
+sh.ErrorReturnCode_1: 
+
+
+
+  RAN: /home/leon/MyKivyApp/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build/python3 setup.py install -O2 --root=/home/leon/MyKivyApp/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/myapp/arm64-v8a --install-lib=.
+
+
+
+  STDOUT:
+
+Traceback (most recent call last):
+
+  File "/home/leon/MyKivyApp/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/setuptools/arm64-v8a__ndk_target_21/setuptools/setup.py", line 7, in <module>
+
+    import setuptools
+
+  File "/home/leon/MyKivyApp/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/setuptools/arm64-v8a__ndk_target_21/setuptools/setuptools/__init__.py", line 18, in <module>
+
+    from setuptools.dist import Distribution
+
+  File "/home/leon/MyKivyApp/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/setuptools/arm64-v8a__ndk_target_21/setuptools/setuptools/dist.py", line 32, in <module>
+
+    from setuptools import windows_support
+
+  File "/home/leon/MyKivyApp/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/setuptools/arm64-v8a__ndk_target_21/setuptools/setuptools/windows_support.py", line 2, in <module>
+
+    import ctypes
+
+  File "/home/leon/MyKivyApp/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Lib/ctypes/__init__.py", line 8, in <module>
+
+    from _ctypes import Union, Structure, Array
+
+ModuleNotFoundError: No module named '_ctypes'
+
+
+
+
+
+  STDERR:
+
+
+
+sudo apt-get install libffi-dev libssl-dev
+1.30  restart 
+
+samne errore so 
+
+pip install cffi
+
+sudo apt install -y git zip unzip openjdk-17-jdk python3-pip autoconf libtool pkg-config zlib1g-dev libncurses5-dev libncursesw5-dev libtinfo5 cmake libffi-dev libssl-dev
+
+
+
+same error , quindi 
+
+1.43 
+sudo apt-get update
+sudo apt-get install python3 python3-pip python3-venv
+mattina dopo perche ha creato
+sudo kill -9 142654
+sudo apt install adb
+ adb devices
+adb kill-server
+adb start-server
+14.18   buildozer -v android deploy run logcat | grep python
+14.19 parte 
+14.22 new
+14.58 fine
+
+
+https://dev.to/mhbaando/how-to-install-cursor-the-ai-editor-on-linux-41dm
+sudo mv cursor.png /opt
+sudo mv cursor-0.42.3x86_64.AppImage /opt/cursor.appimage
+
+12h.30min
+2h19
+3h0.
+[(4^2/3+7^3/2)+5^2/9]*2
+
+[(4/3+7/2)+5^2]-{4+(3^2+8/9)}
