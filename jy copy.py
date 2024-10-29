@@ -323,7 +323,7 @@ class myApp(MDApp):
                                 left_start=left_start+num
                                 #left_start += num
                             else:
-                                #left_start -= lungh_sostituita
+                                #left_start -= lungh_sostituita###################################################
                                 # credo che avevo  fatto questo per prendere l'iniziale parentesi  di 
                                 if expression.count(r"\frac{") >= 2:
                                     # rfind srve x fare all'indietrop
@@ -569,7 +569,10 @@ class myApp(MDApp):
 # mentre prma avevo fatto per {4+(3+8/9)}/2^2
         # if r"\frac{" in expression:
         # if re.findall(r'\\frac{(\d+)', expression):
-            if not re.findall(r'\\frac{(?!\\frac{)', expression):  
+            # if r"\frac{" in expression:
+            
+            #(1/3-7/9)/(3/4)  ha bisogno di   if not re.findall(r'\\frac{(?!\\frac{)', expression)
+            if not re.findall(r'\\frac{(?!\\frac{)', expression) or r"\frac{" in expression :  
                 fractions = []  # Aggiunto per memorizzare le frazioni
                 potenze = []
                 positions = []  # Aggiunto per memorizzare le posizioni delle sostituzioni
