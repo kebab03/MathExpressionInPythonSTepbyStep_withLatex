@@ -945,7 +945,7 @@ class myApp(MDApp):
                 
                 ###/////////inizio ////////////// come fatto sopra se 
                 if "/" in text_fr_grarffe:
-                    text_fr_grarffe=self.replace_fractions(expression_modifiedk,0,0)
+                    text_fr_grarffe=self.replace_fractions(text_fr_grarffe,0,0)
             
                     print("-------------expression-------========----------:::--")
                     print(text_fr_grarffe)
